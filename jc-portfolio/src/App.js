@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import About from "./Screens/About";
 import { Route, Switch } from "react-router";
@@ -10,17 +9,17 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path='/projects'>
+        <Route path="/projects">
           <Projects />
         </Route>
-        <Route path= '/contact'>
-          <Contact/>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/about">
           <About />
         </Route>
-        <Route exact path='/'>
-          <Home/>
+        <Route exact path="/">
+          <Home />
         </Route>
       </Switch>
     </div>
