@@ -1,4 +1,15 @@
 .home-container{
   background-color: #FDFFB6;
   color:black;
+  font-family: 'Lato', sans-serif;
+}
+.home-container p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+.jc-img img{
+border-radius: 50%;
+height: 200px;
+width: 175px;
+
 }
