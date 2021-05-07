@@ -7,6 +7,9 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 }
+.home-container b{
+  color:#ff85ff;
+}
 .jc-img img{
 border-radius: 50%;
 height: 200px;
