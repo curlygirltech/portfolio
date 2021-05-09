@@ -7,7 +7,7 @@ import Projects from "./Screens/Projects";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Switch>
         <Route path="/projects">
           <Projects />
