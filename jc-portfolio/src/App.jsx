@@ -5,8 +5,10 @@ import Home from "./Screens/Home/Home";
 import Contact from "./Screens/Contact/Contact";
 import Projects from "./Screens/Projects/Projects";
 import Testimonials from "./Screens/Testimonials /Testimonials";
+import { useState } from "react";
 
 function App() {
+  const [menuOpen, setMenuOpen]= useState(false)
   return (
     <div className="app">
       <Navbar />
