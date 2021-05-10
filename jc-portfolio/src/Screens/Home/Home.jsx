@@ -19,7 +19,7 @@ export default function Home() {
           <h1>Jovonne</h1>
           <h3>a Software Engineer</h3>
         </div>
-        <Link to path="#portfolio">
+        <Link to="#projects">
           <img src="downarrow-removebg-preview.png" alt="down-arrow towards portfolio" />
         </Link>
       </div>
