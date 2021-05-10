@@ -1,14 +1,20 @@
-import "./App.css";
-import About from "./Screens/About";
+import "./App.scss";
+import About from "./Screens/About/About";
 import { Route, Switch } from "react-router";
-import Home from "./Screens/Home";
-import Contact from "./Screens/Contact";
-import Projects from "./Screens/Projects";
+import Home from "./Screens/Home/Home"
+import Contact from "./Screens/Contact/Contact";
+import Projects from "./Screens/Projects/Projects";
+import Navbar from "./Screens/Navbar/Navbar";
+import Testimonials from "./Screens/Testimonials /Testimonials";
 
 function App() {
   return (
     <div className="app">
+      <Navbar/>
       <Switch>
+        <Route path="/testimonials">
+          <Testimonials/>
+        </Route>
         <Route path="/projects">
           <Projects />
         </Route>

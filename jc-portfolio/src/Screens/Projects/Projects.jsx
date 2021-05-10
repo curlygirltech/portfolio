@@ -1,9 +1,9 @@
 import React from 'react'
-import './project.css'
+import './projects.scss'
 
 export default function Projects() {
   return (
-    <div>
+    <div className="projects">
       <h1> Check out My Work</h1>
     </div>
   )
