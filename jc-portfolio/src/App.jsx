@@ -1,17 +1,19 @@
 import "./App.scss";
 import Navbar from "./Screens/Navbar.jsx/Navbar";
-import About from "./Screens/About/About";
+import Menu from "./Screens/Menu/Menu";
 import Home from "./Screens/Home/Home";
-import Contact from "./Screens/Contact/Contact";
+import About from "./Screens/About/About";
 import Projects from "./Screens/Projects/Projects";
 import Testimonials from "./Screens/Testimonials /Testimonials";
+import Contact from "./Screens/Contact/Contact";
 import { useState } from "react";
 
 function App() {
   const [menuOpen, setMenuOpen]= useState(false)
   return (
     <div className="app">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
       <Home />
       <About />
