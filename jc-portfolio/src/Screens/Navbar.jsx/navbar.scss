@@ -7,3 +7,12 @@
   top:0;
   z-index: 2;
 }
+.wrapper{
+  display:flex;
+  padding:10px 30px;
+  align-items: center;
+
+    .left{
+      font-size:20px;
+    }
+}
