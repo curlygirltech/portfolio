@@ -2,14 +2,19 @@ import "./menu.scss"
 import{HashLink as Link} from 'react-router-hash-link'
 
 
-export default function Menu({menuOpen, setMenuOpen}) {
+export default function Menu({ menuOpen, setMenuOpen }) {
+  
+  const handleClick=()=> {
+    setMenuOpen(false)
+  }
+  
   return (
     <div className={"menu "+(menuOpen && "active")} >
-      <Link smooth to="#home">Home</Link>
-      <Link smooth to="#about">About</Link>
-      <Link smooth to="#projects">Projects</Link>
-      <Link smooth to="#testimonials">Testimonials</Link>
-      <Link smooth to="#contact">Contact</Link>
+      <Link smooth to="#home" onClick={handleClick}>Home</Link>
+      <Link smooth to="#about" onClick={handleClick}>About</Link>
+      <Link smooth to="#projects" onClick={handleClick}>Projects</Link>
+      <Link smooth to="#testimonials" onClick={handleClick}>Testimonials</Link>
+      <Link smooth to="#contact" onClick={handleClick}>Contact</Link>
       
     </div>
   )

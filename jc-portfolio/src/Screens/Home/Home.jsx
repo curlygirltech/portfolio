@@ -9,8 +9,8 @@ export default function Home() {
       <div className='jc-img'>
         <img src="jovonnecameron.png" ></img>
       </div>
-      <button>Get Resume</button>
-      <button>My Work</button>
+      {/* <button>Get Resume</button>
+      <button>My Work</button> */}
     </div>
   )
 }
