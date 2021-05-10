@@ -1,16 +1,28 @@
-import React from 'react'
-import './home.scss'
+import React from "react";
+import{HashLink as Link} from 'react-router-hash-link'
+import "./home.scss";
 
 export default function Home() {
   return (
     <div className="home-container" id="home">
-      <h1 className="heading">Hi! I'm <b>Jovonne</b>, a Software Engineer</h1>
-      <p>I build full-stack apps with a front-end focus</p>
-      <div className='jc-img'>
-        <img src="jovonnecameron.png" ></img>
+      <div className="left">
+        <div className="imgContainer">
+          <img
+            src="jovonnecameron-removebg-preview.png"
+            alt="picture of girl"
+          ></img>
+        </div>
       </div>
-      {/* <button>Get Resume</button>
-      <button>My Work</button> */}
+      <div className="right">
+        <div className="wrapper">
+          <h2>Hi! I'm</h2>
+          <h1>Jovonne</h1>
+          <h3>a Software Engineer</h3>
+        </div>
+        <Link to path="#portfolio">
+          <img src="downarrow-removebg-preview.png" alt="down-arrow towards portfolio" />
+        </Link>
+      </div>
     </div>
-  )
+  );
 }
