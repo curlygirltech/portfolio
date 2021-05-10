@@ -1,33 +1,33 @@
 import "./App.scss";
-import About from "./Screens/About/About";
 import { Route, Switch } from "react-router";
+import Navbar from "./Screens/Navbar/Navbar";
+import About from "./Screens/About/About";
 import Home from "./Screens/Home/Home"
 import Contact from "./Screens/Contact/Contact";
 import Projects from "./Screens/Projects/Projects";
-import Navbar from "./Screens/Navbar/Navbar";
 import Testimonials from "./Screens/Testimonials /Testimonials";
 
 function App() {
   return (
     <div className="app">
       <Navbar/>
-      <Switch>
-        <Route path="/testimonials">
+      
+        {/* <Route exact path="/testimonials"> */}
           <Testimonials/>
-        </Route>
-        <Route path="/projects">
+        {/* </Route> */}
+        {/* <Route exact path="/projects"> */}
           <Projects />
-        </Route>
-        <Route path="/contact">
+        {/* </Route> */}
+        {/* <Route exact path="/contact"> */}
           <Contact />
-        </Route>
-        <Route path="/about">
+        {/* </Route> */}
+        {/* <Route exact path="/about"> */}
           <About />
-        </Route>
-        <Route exact path="/">
+        {/* </Route> */}
+        {/* <Route exact path="/"> */}
           <Home />
-        </Route>
-      </Switch>
+        {/* </Route> */}
+      
     </div>
   );
 }

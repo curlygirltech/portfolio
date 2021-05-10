@@ -3,7 +3,7 @@ import './home.scss'
 
 export default function Home() {
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
       <h1 className="heading">Hi! I'm <b>Jovonne</b>, a Software Engineer</h1>
       <p>I build full-stack apps with a front-end focus</p>
       <div className='jc-img'>
