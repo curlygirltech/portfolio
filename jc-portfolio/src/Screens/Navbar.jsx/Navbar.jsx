@@ -1,15 +1,15 @@
 import{HashLink as Link} from 'react-router-hash-link'
 import "./navbar.scss"
 
-export default function Navbar() {
+export default function Navbar({menuOpen, setMenuOpen}) {
   return (
-    <div className="navbar">
+    <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
       <div className="left" >
         <Link to="#home">Jovonne Cameron</Link>
       </div>
         <div className="right">
-          <div className="hamburger">
+          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
