@@ -9,8 +9,9 @@ export default function Projects() {
         <div className="item">
           <a href="https://heuristic-ptolemy-d4f1c6.netlify.app/">
           <img src="technologic.png" alt=""/>
-          <h3>Technologic</h3>
+            <h3>Technologic</h3>
           </a>
+          <p>Technologic is a full stack app</p>
         </div>
       </div>
       <a href="https://drive.google.com/file/d/16o3r8-YwZWgUIaEnBMEPb3bga3LYyt7Y/view?usp=sharing">
