@@ -7,6 +7,7 @@ import Projects from "./Screens/Projects/Projects";
 import Testimonials from "./Screens/Testimonials /Testimonials";
 import Contact from "./Screens/Contact/Contact";
 import { useState } from "react";
+import Resume from "./Screens/Resume/Resume";
 
 function App() {
   const [menuOpen, setMenuOpen]= useState(false)
@@ -18,6 +19,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Resume/>  
       <Testimonials />
       <Contact />  
       </div>
