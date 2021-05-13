@@ -9,8 +9,8 @@ export default function Home() {
         <div className="imgContainer">
           <img
             src="jovonnecameron-removebg-preview.png"
-            alt="picture of girl"
-          ></img>
+            alt=""
+          />
         </div>
       </div>
       <div className="right">
@@ -19,7 +19,7 @@ export default function Home() {
           <h1>Jovonne</h1>
           <h3>a Software Engineer</h3>
         <Link to="#projects">
-          <img src="downarrow-removebg-preview.png" alt="down-arrow towards portfolio" />
+            <img src="downarrow-removebg-preview.png" alt="" />
         </Link>
         </div>
       </div>
