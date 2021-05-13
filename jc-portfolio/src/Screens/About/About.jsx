@@ -6,7 +6,14 @@ export default function About() {
     <div className="about-container" id="about">
       <div className="about-card">
         <h1>About Me</h1>
-        <p>this is a paragraph about my work experience and skills</p>
+        <p>Hello! I am a dynamic Software Engineer who aims to bridge the gap between functionality and creativity by approaching problems from an entrepreneurial perspective. With a background in communications and education, quick-thinking and productivity are second-skin. I love to serve companies that stimulate change with ambitious goals by using code to solve everyday problems and streamline processes. 
+
+👩🏾‍💻Tech Stack 
+
+Frontend Development: React, Vanilla JavaScript, HTML/ CSS
+
+Backend  Development: Python, PostgreSQL, MongoDB, Ruby on Rails, Express JS, Node JS.
+</p>
       </div>
     </div>
   );

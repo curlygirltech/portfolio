@@ -1,11 +1,16 @@
 .about-container{
-  background-color: #ffc6ff;
+  background-color: white;
   width:100%;
   height: calc(100vh - 70px);
   position:relative;
   top:70px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   
-}
-.about-card{
-  box-shadow: 5px 5px 7px 4px #727272;
+  .about-card{
+    
+  }
 }
