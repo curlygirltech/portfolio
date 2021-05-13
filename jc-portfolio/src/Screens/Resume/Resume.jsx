@@ -1,9 +1,11 @@
 import './resume.scss'
+import jc from '../../images/0001.jpg'
+
 
 export default function Resume() {
   return (
     <div className="resume" id="resume">
-      {/* <img src="download-symbol.png" alt="download resume"/> */}
+      <img src={jc} alt=""/>
     </div>
   )
 }
