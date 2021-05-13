@@ -1,0 +1,16 @@
+.about-container{
+  background-color: white;
+  width:100%;
+  height: calc(100vh - 70px);
+  position:relative;
+  top:70px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+  .about-card{
+    padding:20px;
+  }
+}
