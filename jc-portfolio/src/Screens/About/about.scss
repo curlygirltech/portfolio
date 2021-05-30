@@ -8,9 +8,22 @@
   display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  // justify-content: space-around;
   
-  .about-card{
-    padding:20px;
+}
+
+.about-card{
+  padding: 15px;
+  line-height: 2;
+  
+  h1{
+    text-align: left;
+  }
+}
+.tech-stack-card{
+  padding:10px;
+  
+  h2{
+    text-align: left;
   }
 }
