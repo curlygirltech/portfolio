@@ -12,7 +12,7 @@ export default function Projects() {
           </a>
         </div>
         <div className="projects-about">
-            <h3>Technologic</h3>
+          <h3>Technologic</h3>
           <p>
             Technologic is an inventory app inspired by Craigslist where users
             buy and sell pre-loved tech devices. Users can create an account and
@@ -24,42 +24,40 @@ export default function Projects() {
           </p>
           <div className="project-button">
             <a href="https://heuristic-ptolemy-d4f1c6.netlify.app/">
-            <button>Live Site</button>
+              <button>Live Site</button>
             </a>
             <a href="https://github.com/sponticel/technologic-app">
-            <button>GitHub Repo</button>
+              <button>GitHub Repo</button>
             </a>
           </div>
 
           <div className="projects-container">
             <div className="item">
               <a href="https://sharespaceapp.netlify.app/">
-              <img src="sharespace.png" alt="" />             
+                <img src="sharespace.png" alt="" />
               </a>
             </div>
             <div className="projects-about">
-            <h3>ShareSpace</h3>
-          <p>
-            SquareSpace is an inventory app inspired by Craigslist where users
-            buy and sell pre-loved tech devices. Users can create an account and
-            contact sellers or create posts for items that they wish to sell.
-          </p>
-          <p>
-            This application was built in collaboration with engineers using
-            MongoDB, Express, React, and NodeJS
-          </p>
-          <div className="project-button">
-            <a href="">
-            <button>Live Site</button>
-            </a>
-            <a href="https://github.com/sponticel/technologic-app">
-            <button>GitHub Repo</button>
-            </a>
-          </div>
-
+              <h3>ShareSpace</h3>
+              <p>
+                Sharespace is a full stack app where guests can rent luxury
+                cabins homes in their place of choice. Users can create an
+                account, book stays, and manage their trips on their account page.
+              </p>
+              <p>
+                This application was built in collaboration with engineers using
+                MongoDB, Express, React, and NodeJS
+              </p>
+              <div className="project-button">
+                <a href="https://sharespaceapp.netlify.app/">
+                  <button>Live Site</button>
+                </a>
+                <a href="https://github.com/curlygirltech/sharespace">
+                  <button>GitHub Repo</button>
+                </a>
+              </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
