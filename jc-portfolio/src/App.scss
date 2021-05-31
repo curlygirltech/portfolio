@@ -1,6 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Questrial&display=swap');
+
+:root {
+  --peach:#fec89a;
+  --light-pink:#fcd5ce;
+  --off-white: #f8edeb;
+  --tan:#f9dcc4;
+  --coral:#ffb5a7;
+}
+
 .App {
   text-align: center;
   height: 100vh;
+  width:100%;
   
   //   .sections{
   //     width: 100%;
@@ -16,8 +28,12 @@
   //   }
   // }
 }
-
-*{
-  // width:100vw;
-  
+h1, h2, h3, h4, h5 {
+  font-family: 'Questrial', sans-serif;
 }
+p{
+  font-family: 'Gayathri', sans-serif;
+
+}
+
+// Buttons
