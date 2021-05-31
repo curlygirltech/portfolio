@@ -53,3 +53,8 @@ button{
   padding:8px 15px;
   font-family: 'Questrial', sans-serif;
 }
+
+button:hover{
+  background-color: var(--tan);
+  font-weight: 800px;
+}

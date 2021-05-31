@@ -16,13 +16,13 @@ export default function About() {
         </p>
       </div>
         <div className="tech-stack-card">
-        <h2>👩🏾‍💻Tech Stack:</h2>
-        <h4>
+        <h2>👩🏾‍💻Tech Stacks:</h2>
+        <h5>
           Frontend Development: React, Vanilla JavaScript, HTML/
           CSS, SASS
           Backend Development: Python, PostgreSQL, MongoDB, Ruby on Rails,
           Express JS, Node JS.
-        </h4>
+        </h5>
         </div>
     </div>
   );
