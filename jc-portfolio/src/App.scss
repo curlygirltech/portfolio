@@ -1,6 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Questrial&display=swap');
+
+:root {
+  --peach:#fec89a;
+  --light-pink:#fcd5ce;
+  --off-white: #f8edeb;
+  --tan:#f9dcc4;
+  --coral:#ffb5a7;
+}
+
 .App {
   text-align: center;
   height: 100vh;
+  width:100%;
   
   //   .sections{
   //     width: 100%;
@@ -16,8 +28,33 @@
   //   }
   // }
 }
-
-*{
-  // width:100vw;
+h1, h2, h3, h4, h5 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+}
+p{
+  font-family: 'Gayathri', sans-serif;
+  font-size: 20px;
   
+}
+a{
+  text-decoration: none;
+}
+section{
+  // margin: 15px;
+}
+
+// Buttons
+button{
+  background-color: var(--coral);
+  color: black;
+  border:solid 1px var(--off-white);
+  margin:10px;
+  padding:8px 15px;
+  font-family: 'Questrial', sans-serif;
+}
+
+button:hover{
+  background-color: var(--tan);
+  font-weight: 800px;
 }
