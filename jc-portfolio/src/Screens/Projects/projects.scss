@@ -1,10 +1,15 @@
-.projects-div{
+section{
+  // background-color: red;
+  margin-top: 30px;
+}
+.projects{
   display:flex;
  flex-flow: row wrap;
   background-color: white;
   text-align:left;
   width:100%;
-  height:100vh;
+  // height:100vh;
+  
   .project-card {
     background-color: var(--off-white);
     display: flex;
@@ -21,7 +26,7 @@
       align-items: center;
     }
     img{
-      width: 40vw;
+      width: 200px;
       height: inherit;
     }
     .project-description{
@@ -31,6 +36,7 @@
       margin:5px;
       
     }
+    
   }
 }
 
@@ -38,32 +44,34 @@
 
 @media (max-width: 1190px){
 
-  .projects-div{
+  .projects{
     
       display:flex;
       background-color: white;
       text-align:left;
       width:100%;
-      height:100vh;
+      // height:100vh;
       // height: calc(100vh - 70px);
       position:relative;
       top:70px;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
-      // justify-content: space-around;
+      justify-content: center;
+      
       
       
       // img{
       //   height:100px;
       //   width: 100px;
       // }
+      .project-card{
+        display:flex;
+        flex-direction: column;
+        text-align: left;
+        width:70vw;
+        margin-bottom: 20px;
+
+      }
   }
-    .project-card{
-      display:flex;
-      flex-direction: column;
-      text-align: left;
-      width:70vw;
-      margin-bottom: 15px;
-    }
-  }
+}
 
